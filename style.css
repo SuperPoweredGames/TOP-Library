@@ -22,6 +22,14 @@ body {
     background-color: white;
     margin: 1vh 1vw;
     border-radius: 1rem;
+    overflow-y: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: start;
+    justify-content: start;
+    padding: 3%;
+    gap: 3%;
 }
 
 .form {
@@ -36,4 +44,12 @@ fieldset {
 
 label {
     padding-top: 10px;
+}
+
+.card {
+    background-color: aquamarine;
+    width:  20vw;
+    height: 30vh;
+
+    justify-content: center;
 }
